@@ -10,6 +10,6 @@ let package = Package(
     .library(name: "UIScrollView_InfiniteScroll", targets: ["UIScrollView_InfiniteScroll"])
   ],
   targets: [
-    .target(name: "UIScrollView_InfiniteScroll", path: "Classes")
+    .target(name: "UIScrollView_InfiniteScroll", path: "Classes", publicHeadersPath: "")
   ]
 )
